@@ -1,0 +1,609 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img "Awani" [ref=e7]
+        - generic [ref=e8]: Awani
+      - button "Book Call" [ref=e9] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e13]: 26+ Years Building Enterprise-Scale Systems | 360 degree Fleet Platform Later Acquired for ~380M$+
+    - heading "Helping businesses build better software, faster" [level=1] [ref=e14]:
+      - text: Helping businesses build
+      - generic [ref=e15]: better software, faster
+    - paragraph [ref=e16]: Carrier & Utility-Grade IoT • Voice AI • Enterprise Architecture • Fractional CTO
+    - generic [ref=e17]:
+      - button "View Solutions" [ref=e18] [cursor=pointer]
+      - button "View Experts" [ref=e19] [cursor=pointer]
+      - button "See Case Studies" [ref=e20] [cursor=pointer]
+  - generic [ref=e22]:
+    - heading "Solution Consulting" [level=2] [ref=e23]
+    - paragraph [ref=e24]: Enterprise-grade solutions across AI, IoT, and software architecture
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e28]: AI
+        - heading "AI/ML Solutions" [level=3] [ref=e29]
+        - paragraph [ref=e30]: Enterprise AI implementation and integration
+        - list [ref=e31]:
+          - listitem [ref=e32]: ✓ Voice AI & conversational agents
+          - listitem [ref=e33]: ✓ LLM integration (Frontier & open-weight via HuggingFace)
+          - listitem [ref=e34]: ✓ Private cloud AI deployment
+          - listitem [ref=e35]: ✓ Computer vision & OCR
+        - generic [ref=e36]: $15K - $100K
+      - generic [ref=e37]:
+        - generic [ref=e39]: AIoT
+        - heading "AIoT Platforms" [level=3] [ref=e40]
+        - paragraph [ref=e41]: AI-powered IoT systems at enterprise scale
+        - list [ref=e42]:
+          - listitem [ref=e43]: ✓ Smart Grid & utilities IoT
+          - listitem [ref=e44]: ✓ Fleet tracking & telematics
+          - listitem [ref=e45]: ✓ Carrier-grade deployments
+          - listitem [ref=e46]: ✓ Edge computing & sensors
+        - generic [ref=e47]: $50K - $300K
+      - generic [ref=e48]:
+        - generic [ref=e50]: CTO
+        - heading "Fractional CTO" [level=3] [ref=e51]
+        - paragraph [ref=e52]: Strategic technical leadership without full-time cost
+        - list [ref=e53]:
+          - listitem [ref=e54]: ✓ Technology strategy & roadmap
+          - listitem [ref=e55]: ✓ Enterprise architecture (TOGAF)
+          - listitem [ref=e56]: ✓ Team building & mentoring
+          - listitem [ref=e57]: ✓ Technical due diligence
+        - generic [ref=e58]: $3K - $10K/month
+      - generic [ref=e59]:
+        - generic [ref=e61]: API
+        - heading "API & Integration" [level=3] [ref=e62]
+        - paragraph [ref=e63]: Connect systems and automate workflows
+        - list [ref=e64]:
+          - listitem [ref=e65]: ✓ Third-party API integrations
+          - listitem [ref=e66]: ✓ Workflow automation
+          - listitem [ref=e67]: ✓ Data pipeline & ETL
+          - listitem [ref=e68]: ✓ Custom middleware & microservices
+        - generic [ref=e69]: $3K - $30K
+      - generic [ref=e70]:
+        - generic [ref=e72]: DEV
+        - heading "Software Development" [level=3] [ref=e73]
+        - paragraph [ref=e74]: Custom enterprise applications built for scale
+        - list [ref=e75]:
+          - listitem [ref=e76]: ✓ Web & mobile applications
+          - listitem [ref=e77]: ✓ SaaS platform development
+          - listitem [ref=e78]: ✓ Enterprise dashboards
+          - listitem [ref=e79]: ✓ Legacy system modernization
+        - generic [ref=e80]: $10K - $150K
+      - generic [ref=e81]:
+        - generic [ref=e83]: XR
+        - heading "3D/AR/VR/XR" [level=3] [ref=e84]
+        - paragraph [ref=e85]: Immersive experiences and digital twins
+        - list [ref=e86]:
+          - listitem [ref=e87]: ✓ 3D digital twin platforms
+          - listitem [ref=e88]: ✓ AR/VR applications
+          - listitem [ref=e89]: ✓ 3D visualization & CAD
+          - listitem [ref=e90]: ✓ Mixed reality solutions
+        - generic [ref=e91]: $20K - $150K
+  - generic [ref=e94]:
+    - generic [ref=e95]:
+      - generic [ref=e96]: 26+
+      - generic [ref=e97]: Years Experience
+    - generic [ref=e98]:
+      - generic [ref=e99]: $380M
+      - generic [ref=e100]: Platform Exit
+    - generic [ref=e101]:
+      - generic [ref=e102]: "7"
+      - generic [ref=e103]: Global Carrier Deployments
+    - generic [ref=e104]:
+      - generic [ref=e105]: 100%
+      - generic [ref=e106]: Client Satisfaction
+  - generic [ref=e108]:
+    - heading "Expert Consultants" [level=2] [ref=e109]
+    - paragraph [ref=e110]: World-class expertise across every discipline
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - generic [ref=e113]: 🎨
+        - heading "UI/UX Design Expert" [level=4] [ref=e114]
+        - paragraph [ref=e115]: 10+ years experience
+        - paragraph [ref=e116]: User-centered design, design systems, responsive interfaces, accessibility standards
+      - generic [ref=e117]:
+        - generic [ref=e118]: ⚡
+        - heading "Performance & Scalability Specialist" [level=4] [ref=e119]
+        - paragraph [ref=e120]: 15+ years experience
+        - paragraph [ref=e121]: Robustness engineering, horizontal scaling, load optimization, sub-second response times
+      - generic [ref=e122]:
+        - generic [ref=e123]: 🔒
+        - heading "Security Architect" [level=4] [ref=e124]
+        - paragraph [ref=e125]: 12+ years experience
+        - paragraph [ref=e126]: Application security, penetration testing, OWASP standards, zero-trust architecture
+      - generic [ref=e127]:
+        - generic [ref=e128]: 🔥
+        - heading "Chaos Engineering Expert" [level=4] [ref=e129]
+        - paragraph [ref=e130]: 10+ years experience
+        - paragraph [ref=e131]: Resilience testing, fault injection, disaster recovery, high-availability systems
+      - generic [ref=e132]:
+        - generic [ref=e133]: ✅
+        - heading "QA Automation Specialist" [level=4] [ref=e134]
+        - paragraph [ref=e135]: 12+ years experience
+        - paragraph [ref=e136]: Test automation, CI/CD pipelines, regression testing, quality assurance frameworks
+      - generic [ref=e137]:
+        - generic [ref=e138]: 🚀
+        - heading "Product Development Expert" [level=4] [ref=e139]
+        - paragraph [ref=e140]: 15+ years experience
+        - paragraph [ref=e141]: 0-to-1 product building, MVP development, product-market fit, launch strategy
+      - generic [ref=e142]:
+        - generic [ref=e143]: ☁️
+        - heading "Multi-Cloud Architect" [level=4] [ref=e144]
+        - paragraph [ref=e145]: 14+ years experience
+        - paragraph [ref=e146]: AWS, Azure, GCP, hybrid cloud, cost optimization, cloud migration strategies
+      - generic [ref=e147]:
+        - generic [ref=e148]: 🤖
+        - heading "Local AI/ML Specialist" [level=4] [ref=e149]
+        - paragraph [ref=e150]: 10+ years experience
+        - paragraph [ref=e151]: On-device AI, edge computing, model optimization, offline-first ML systems
+      - generic [ref=e152]:
+        - generic [ref=e153]: 📱
+        - heading "IoT Architecture Expert" [level=4] [ref=e154]
+        - paragraph [ref=e155]: 12+ years experience
+        - paragraph [ref=e156]: Smart cities, industrial IoT, sensor networks, real-time data processing
+      - generic [ref=e157]:
+        - generic [ref=e158]: 🏢
+        - heading "Enterprise Architect" [level=4] [ref=e159]
+        - paragraph [ref=e160]: 20+ years experience
+        - paragraph [ref=e161]: TOGAF certified, system integration, digital transformation, legacy modernization
+      - generic [ref=e162]:
+        - generic [ref=e163]: 🚛
+        - heading "Fleet Management Specialist" [level=4] [ref=e164]
+        - paragraph [ref=e165]: 15+ years experience
+        - paragraph [ref=e166]: GPS tracking, telematics, mobile workforce solutions, logistics optimization
+      - generic [ref=e167]:
+        - generic [ref=e168]: 🚗
+        - heading "Automotive Systems Expert" [level=4] [ref=e169]
+        - paragraph [ref=e170]: 12+ years experience
+        - paragraph [ref=e171]: Infotainment systems, navigation, telematics, embedded automotive electronics
+      - generic [ref=e172]:
+        - generic [ref=e173]: 🏙️
+        - heading "Smart City Consultant" [level=4] [ref=e174]
+        - paragraph [ref=e175]: 10+ years experience
+        - paragraph [ref=e176]: Smart utilities, smart ports, smart energy, connected infrastructure
+      - generic [ref=e177]:
+        - generic [ref=e178]: 💰
+        - heading "Islamic FinTech Specialist" [level=4] [ref=e179]
+        - paragraph [ref=e180]: 14+ years experience
+        - paragraph [ref=e181]: Shariah-compliant payment systems, Islamic banking automation, Takaful platforms, halal e-commerce
+      - generic [ref=e182]:
+        - generic [ref=e183]: 🛒
+        - heading "Halal Retail & E-Commerce Expert" [level=4] [ref=e184]
+        - paragraph [ref=e185]: 12+ years experience
+        - paragraph [ref=e186]: Shariah-compliant retail systems, halal product verification, ethical supply chains, Islamic e-commerce
+      - generic [ref=e187]:
+        - generic [ref=e188]: 📚
+        - heading "EdTech Consultant" [level=4] [ref=e189]
+        - paragraph [ref=e190]: 10+ years experience
+        - paragraph [ref=e191]: Learning management systems, educational platforms, SaaS for education
+      - generic [ref=e192]:
+        - generic [ref=e193]: 📐
+        - heading "SaaS Architecture Expert" [level=4] [ref=e194]
+        - paragraph [ref=e195]: 16+ years experience
+        - paragraph [ref=e196]: Multi-tenancy, subscription billing, horizontal scaling, SaaS metrics optimization
+      - generic [ref=e197]:
+        - generic [ref=e198]: 📊
+        - heading "Data Engineering Specialist" [level=4] [ref=e199]
+        - paragraph [ref=e200]: 12+ years experience
+        - paragraph [ref=e201]: ETL pipelines, data warehousing, analytics platforms, real-time data sync
+      - generic [ref=e202]:
+        - generic [ref=e203]: 📡
+        - heading "Telecommunications IoT Specialist" [level=4] [ref=e204]
+        - paragraph [ref=e205]: 15+ years experience
+        - paragraph [ref=e206]: Carrier-grade IoT deployments for Sprint, Verizon, AT&T, Telstra, STC, Ooredoo, Saudi NIC
+      - generic [ref=e207]:
+        - generic [ref=e208]: ⚡
+        - heading "Utilities & Smart Grid Expert" [level=4] [ref=e209]
+        - paragraph [ref=e210]: 12+ years experience
+        - paragraph [ref=e211]: Smart Grid, Smart Meter, Water Network Monitoring for National Utilities (Saudi Arabia, UAE, Qatar)
+      - generic [ref=e212]:
+        - generic [ref=e213]: 🏦
+        - heading "Banking Automation Specialist" [level=4] [ref=e214]
+        - paragraph [ref=e215]: 10+ years experience
+        - paragraph [ref=e216]: Fully automated bank branch (zero staff), remote monitoring & auto-repair for ATMs, cash management systems
+  - generic [ref=e218]:
+    - heading "Case Studies" [level=2] [ref=e219]
+    - paragraph [ref=e220]: Real projects, real results
+    - generic [ref=e221]:
+      - generic [ref=e222]:
+        - generic [ref=e223]:
+          - heading "Awani Voice Assistant" [level=3] [ref=e224]
+          - generic [ref=e225]:
+            - generic [ref=e226]: Voice AI
+            - generic [ref=e227]: Full-Stack
+            - generic [ref=e228]: Production
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - heading "Challenge" [level=4] [ref=e231]
+            - paragraph [ref=e232]: Built an AI-powered voice assistant for the trucking industry from scratch, requiring real-time voice processing, natural language understanding, and integration with logistics systems.
+          - generic [ref=e233]:
+            - heading "Solution" [level=4] [ref=e234]
+            - list [ref=e235]:
+              - listitem [ref=e236]: → Designed and developed full-stack Voice AI platform
+              - listitem [ref=e237]: → Implemented Claude API for natural language processing
+              - listitem [ref=e238]: → Built Flutter mobile app + React dashboard
+              - listitem [ref=e239]: → Deployed scalable backend on AWS
+          - generic [ref=e240]:
+            - heading "Results" [level=4] [ref=e241]
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - generic [ref=e244]: $59.99/mo
+                - generic [ref=e245]: Product serving trucking companies
+              - generic [ref=e246]:
+                - generic [ref=e247]: 90%
+                - generic [ref=e248]: Voice accuracy
+              - generic [ref=e249]:
+                - generic [ref=e250]: Production
+                - generic [ref=e251]: Live at app.awani.ai
+          - generic [ref=e252]:
+            - strong [ref=e253]: "Technologies:"
+            - text: React, TypeScript, Node.js, Flutter, Hetzner Cloud, OpenAI Realtime API, Claude API, WebSockets, PostgreSQL, Redis, Docker, Terraform
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - heading "Enterprise Analytics Platform" [level=3] [ref=e256]
+          - generic [ref=e257]:
+            - generic [ref=e258]: Full-Stack
+            - generic [ref=e259]: API Integration
+            - generic [ref=e260]: B2B
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - heading "Challenge" [level=4] [ref=e263]
+            - paragraph [ref=e264]: A logistics company needed a unified dashboard to aggregate data from 5+ different systems (TMS, ERP, GPS tracking, fuel cards, maintenance) with real-time synchronization and custom reporting.
+          - generic [ref=e265]:
+            - heading "Solution" [level=4] [ref=e266]
+            - list [ref=e267]:
+              - listitem [ref=e268]: → Built REST API middleware to normalize data from disparate systems
+              - listitem [ref=e269]: → Implemented automated data sync pipelines with Redis caching
+              - listitem [ref=e270]: → Created React dashboard with role-based access control
+              - listitem [ref=e271]: → Designed PostgreSQL schema optimized for reporting queries
+          - generic [ref=e272]:
+            - heading "Results" [level=4] [ref=e273]
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - generic [ref=e276]: 80%
+                - generic [ref=e277]: Reduction in manual data entry
+              - generic [ref=e278]:
+                - generic [ref=e279]: 5min
+                - generic [ref=e280]: Real-time data sync
+              - generic [ref=e281]:
+                - generic [ref=e282]: 15+
+                - generic [ref=e283]: Custom reports generated
+          - generic [ref=e284]:
+            - strong [ref=e285]: "Technologies:"
+            - text: React, Node.js, Express, PostgreSQL, Redis, REST APIs, JWT Auth, Docker, AWS EC2
+      - generic [ref=e286]:
+        - generic [ref=e287]:
+          - heading "EdTech SaaS Platform" [level=3] [ref=e288]
+          - generic [ref=e289]:
+            - generic [ref=e290]: SaaS
+            - generic [ref=e291]: Education
+            - generic [ref=e292]: Enterprise
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - heading "Challenge" [level=4] [ref=e295]
+            - paragraph [ref=e296]: Built enterprise SaaS platform from scratch for educational institutions requiring multi-tenant architecture, role-based access control, and scalable content delivery for thousands of concurrent users.
+          - generic [ref=e297]:
+            - heading "Solution" [level=4] [ref=e298]
+            - list [ref=e299]:
+              - listitem [ref=e300]: → Architected multi-tenant SaaS platform with isolated data models
+              - listitem [ref=e301]: → Implemented scalable backend infrastructure on cloud
+              - listitem [ref=e302]: → Built comprehensive admin dashboard and student portal
+              - listitem [ref=e303]: → Deployed enterprise security and RBAC systems
+          - generic [ref=e304]:
+            - heading "Results" [level=4] [ref=e305]
+            - generic [ref=e306]:
+              - generic [ref=e307]:
+                - generic [ref=e308]: 8 Years
+                - generic [ref=e309]: CTO tenure (2013-2021)
+              - generic [ref=e310]:
+                - generic [ref=e311]: Enterprise
+                - generic [ref=e312]: Multiple educational institutions served
+              - generic [ref=e313]:
+                - generic [ref=e314]: Ground Zero
+                - generic [ref=e315]: Built SaaS platform from scratch
+          - generic [ref=e316]:
+            - strong [ref=e317]: "Technologies:"
+            - text: Java Spring Boot, PostgreSQL, Redis, AWS, Multi-tenant Architecture, RBAC, RESTful APIs, Microservices, Docker, Kubernetes
+      - generic [ref=e318]:
+        - generic [ref=e319]:
+          - heading "Smart Grid & Smart Meter IoT" [level=3] [ref=e320]
+          - generic [ref=e321]:
+            - generic [ref=e322]: IoT
+            - generic [ref=e323]: Utilities
+            - generic [ref=e324]: Enterprise
+        - generic [ref=e325]:
+          - generic [ref=e326]:
+            - heading "Challenge" [level=4] [ref=e327]
+            - paragraph [ref=e328]: Deployed Smart Grid and Smart Meter IoT software optimization for Global Energy Infrastructure Provider working with National Utility Authority in Saudi Arabia, requiring utility-grade reliability and real-time monitoring.
+          - generic [ref=e329]:
+            - heading "Solution" [level=4] [ref=e330]
+            - list [ref=e331]:
+              - listitem [ref=e332]: → Optimized large-scale utility IoT platform deployment
+              - listitem [ref=e333]: → Implemented real-time grid monitoring and analytics systems
+              - listitem [ref=e334]: → Built smart meter data management and optimization layer
+              - listitem [ref=e335]: → Deployed mission-critical infrastructure at national utility scale
+          - generic [ref=e336]:
+            - heading "Results" [level=4] [ref=e337]
+            - generic [ref=e338]:
+              - generic [ref=e339]:
+                - generic [ref=e340]: National
+                - generic [ref=e341]: Utility Authority deployment (Saudi Arabia)
+              - generic [ref=e342]:
+                - generic [ref=e343]: Utility-Grade
+                - generic [ref=e344]: Mission-critical reliability
+              - generic [ref=e345]:
+                - generic [ref=e346]: Real-Time
+                - generic [ref=e347]: Grid monitoring & analytics
+          - generic [ref=e348]:
+            - strong [ref=e349]: "Technologies:"
+            - text: IoT Platform Architecture, SCADA Systems, Real-Time Analytics, PostgreSQL, Time-Series Databases, MQTT, Microservices, High Availability Systems
+      - generic [ref=e350]:
+        - generic [ref=e351]:
+          - heading "Water Network Monitoring IoT" [level=3] [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: IoT
+            - generic [ref=e355]: Utilities
+            - generic [ref=e356]: MENA
+        - generic [ref=e357]:
+          - generic [ref=e358]:
+            - heading "Challenge" [level=4] [ref=e359]
+            - paragraph [ref=e360]: Deployed Water Network Monitoring Systems for Gulf Region Utility Authorities (UAE & Qatar) requiring real-time leak detection, pressure monitoring, and network-wide analytics for critical water infrastructure.
+          - generic [ref=e361]:
+            - heading "Solution" [level=4] [ref=e362]
+            - list [ref=e363]:
+              - listitem [ref=e364]: → Deployed water network IoT monitoring infrastructure
+              - listitem [ref=e365]: → Implemented real-time leak detection and pressure management systems
+              - listitem [ref=e366]: → Built network-wide analytics and reporting dashboards
+              - listitem [ref=e367]: → Integrated with existing SCADA and utility management systems
+          - generic [ref=e368]:
+            - heading "Results" [level=4] [ref=e369]
+            - generic [ref=e370]:
+              - generic [ref=e371]:
+                - generic [ref=e372]: 2 Countries
+                - generic [ref=e373]: Deployed in UAE & Qatar utilities
+              - generic [ref=e374]:
+                - generic [ref=e375]: Real-Time
+                - generic [ref=e376]: Network monitoring & leak detection
+              - generic [ref=e377]:
+                - generic [ref=e378]: Critical
+                - generic [ref=e379]: Water infrastructure operations
+          - generic [ref=e380]:
+            - strong [ref=e381]: "Technologies:"
+            - text: IoT Sensors, SCADA Integration, Real-Time Monitoring, Time-Series Databases, GIS Systems, MQTT, PostgreSQL, Analytics Dashboards
+      - generic [ref=e382]:
+        - generic [ref=e383]:
+          - heading "Self-Powered IoT Gateway" [level=3] [ref=e384]
+          - generic [ref=e385]:
+            - generic [ref=e386]: IoT
+            - generic [ref=e387]: Hardware
+            - generic [ref=e388]: Innovation
+        - generic [ref=e389]:
+          - generic [ref=e390]:
+            - heading "Challenge" [level=4] [ref=e391]
+            - paragraph [ref=e392]: Designed ultra-compact, self-powered IoT gateway (size of a debit card) for remote sensor deployments requiring energy harvesting, low-power operation, and reliable connectivity in challenging environments.
+          - generic [ref=e393]:
+            - heading "Solution" [level=4] [ref=e394]
+            - list [ref=e395]:
+              - listitem [ref=e396]: → Architected credit card-sized form factor with integrated energy harvesting
+              - listitem [ref=e397]: → Implemented ultra-low-power sensor aggregation and edge processing
+              - listitem [ref=e398]: → Built multi-protocol connectivity (LoRaWAN, NB-IoT, WiFi)
+              - listitem [ref=e399]: → Designed for solar/kinetic/thermal energy harvesting capabilities
+          - generic [ref=e400]:
+            - heading "Results" [level=4] [ref=e401]
+            - generic [ref=e402]:
+              - generic [ref=e403]:
+                - generic [ref=e404]: Card Size
+                - generic [ref=e405]: Credit card dimensions (length & width)
+              - generic [ref=e406]:
+                - generic [ref=e407]: Self-Powered
+                - generic [ref=e408]: Energy harvesting capabilities
+              - generic [ref=e409]:
+                - generic [ref=e410]: Edge
+                - generic [ref=e411]: On-device processing & aggregation
+          - generic [ref=e412]:
+            - strong [ref=e413]: "Technologies:"
+            - text: Embedded Systems, ARM Cortex, LoRaWAN, NB-IoT, Energy Harvesting, Ultra-Low-Power Design, Edge Computing, C/C++, MQTT
+      - generic [ref=e414]:
+        - generic [ref=e415]:
+          - heading "Fleet Tracking Platform" [level=3] [ref=e416]
+          - generic [ref=e417]:
+            - generic [ref=e418]: IoT
+            - generic [ref=e419]: Enterprise Scale
+            - generic [ref=e420]: Acquisition
+        - generic [ref=e421]:
+          - generic [ref=e422]:
+            - heading "Challenge" [level=4] [ref=e423]
+            - paragraph [ref=e424]: Lead tech consultant for a startup building GPS tracking and video telematics platform from ground zero for commercial fleets, insurance companies, and government agencies.
+          - generic [ref=e425]:
+            - heading "Solution" [level=4] [ref=e426]
+            - list [ref=e427]:
+              - listitem [ref=e428]: → Architected enterprise-grade fleet management platform from scratch
+              - listitem [ref=e429]: → Built GPS tracking, video telematics, and mobile workforce solutions
+              - listitem [ref=e430]: → Scaled infrastructure to support thousands of concurrent users
+              - listitem [ref=e431]: → Implemented carrier-grade reliability and real-time data processing
+          - generic [ref=e432]:
+            - heading "Results" [level=4] [ref=e433]
+            - generic [ref=e434]:
+              - generic [ref=e435]:
+                - generic [ref=e436]: $380M
+                - generic [ref=e437]: Platform later acquired by Global Mobility Leader
+              - generic [ref=e438]:
+                - generic [ref=e439]: Ground Zero
+                - generic [ref=e440]: Built from scratch as founding tech team
+              - generic [ref=e441]:
+                - generic [ref=e442]: Enterprise
+                - generic [ref=e443]: Thousands of fleet customers across North America
+          - generic [ref=e444]:
+            - strong [ref=e445]: "Technologies:"
+            - text: Java Spring Boot, PostgreSQL, Redis, AWS, GPS/Telematics APIs, Video Streaming, Mobile Development, Enterprise Architecture
+      - generic [ref=e446]:
+        - generic [ref=e447]:
+          - heading "Private Cloud Enterprise AI Platform" [level=3] [ref=e448]
+          - generic [ref=e449]:
+            - generic [ref=e450]: AI/ML
+            - generic [ref=e451]: Government
+            - generic [ref=e452]: Security
+        - generic [ref=e453]:
+          - generic [ref=e454]:
+            - heading "Challenge" [level=4] [ref=e455]
+            - paragraph [ref=e456]: Enterprises and government organizations requiring AI capabilities while maintaining complete data sovereignty and IP privacy. Built secure, on-premises LLM deployment with enterprise chat platform to replace security-compromised commercial messaging apps.
+          - generic [ref=e457]:
+            - heading "Solution" [level=4] [ref=e458]
+            - list [ref=e459]:
+              - listitem [ref=e460]: → Deployed open-source LLM models in private data centers (on-premises)
+              - listitem [ref=e461]: → Built enterprise chat application with AI bot integration
+              - listitem [ref=e462]: → Implemented end-to-end encryption and air-gapped deployment options
+              - listitem [ref=e463]: → Created secure alternative to WhatsApp/Teams for government & enterprise use
+          - generic [ref=e464]:
+            - heading "Results" [level=4] [ref=e465]
+            - generic [ref=e466]:
+              - generic [ref=e467]:
+                - generic [ref=e468]: 100%
+                - generic [ref=e469]: Data sovereignty & IP privacy
+              - generic [ref=e470]:
+                - generic [ref=e471]: On-Prem
+                - generic [ref=e472]: Private cloud/DC deployment
+              - generic [ref=e473]:
+                - generic [ref=e474]: Gov/Enterprise
+                - generic [ref=e475]: Secure messaging for sensitive orgs
+          - generic [ref=e476]:
+            - strong [ref=e477]: "Technologies:"
+            - text: Open-Source LLMs (Llama, Mistral), Private Cloud Infrastructure, Kubernetes, Docker, End-to-End Encryption, Air-Gapped Networks, Enterprise Chat (Matrix/Mattermost), Python, PostgreSQL, Redis
+  - generic [ref=e479]:
+    - heading "Pricing Tiers" [level=2] [ref=e480]
+    - paragraph [ref=e481]: Flexible pricing to match your needs
+    - generic [ref=e482]:
+      - generic [ref=e483]:
+        - generic [ref=e484]:
+          - heading "Rapid" [level=3] [ref=e485]
+          - generic [ref=e486]: $500 - $2K
+          - generic [ref=e487]: 1-3 days
+        - list [ref=e488]:
+          - listitem [ref=e489]: ✓ Bug fixes
+          - listitem [ref=e490]: ✓ Simple feature additions
+          - listitem [ref=e491]: ✓ Code reviews
+          - listitem [ref=e492]: ✓ Performance audits
+        - generic [ref=e493]: Quick Wins
+      - generic [ref=e494]:
+        - generic [ref=e495]: Most Popular
+        - generic [ref=e496]:
+          - heading "Standard" [level=3] [ref=e497]
+          - generic [ref=e498]: $3K - $15K
+          - generic [ref=e499]: 1-4 weeks
+        - list [ref=e500]:
+          - listitem [ref=e501]: ✓ API integrations
+          - listitem [ref=e502]: ✓ Small custom applications
+          - listitem [ref=e503]: ✓ Database optimization
+          - listitem [ref=e504]: ✓ Technical audits
+        - generic [ref=e505]: Defined Scope
+      - generic [ref=e506]:
+        - generic [ref=e507]:
+          - heading "Premium" [level=3] [ref=e508]
+          - generic [ref=e509]: $20K - $100K+
+          - generic [ref=e510]: 4-16 weeks
+        - list [ref=e511]:
+          - listitem [ref=e512]: ✓ AI/ML integration
+          - listitem [ref=e513]: ✓ Full application development
+          - listitem [ref=e514]: ✓ Legacy system modernization
+          - listitem [ref=e515]: ✓ Technical transformation
+        - generic [ref=e516]: Major Initiatives
+      - generic [ref=e517]:
+        - generic [ref=e518]:
+          - heading "Retainer" [level=3] [ref=e519]
+          - generic [ref=e520]: $3K - $10K/mo
+          - generic [ref=e521]: Ongoing
+        - list [ref=e522]:
+          - listitem [ref=e523]: ✓ Fractional CTO (10-20hr/mo)
+          - listitem [ref=e524]: ✓ Technical advisory
+          - listitem [ref=e525]: ✓ Development support
+          - listitem [ref=e526]: ✓ Priority access
+        - generic [ref=e527]: Long-Term
+  - generic [ref=e529]:
+    - heading "Technology Expertise" [level=2] [ref=e530]
+    - generic [ref=e531]:
+      - generic [ref=e532]:
+        - heading "Frontend & Mobile" [level=4] [ref=e533]
+        - generic [ref=e534]:
+          - generic [ref=e535]: React
+          - generic [ref=e536]: TypeScript
+          - generic [ref=e537]: Next.js
+          - generic [ref=e538]: Flutter
+          - generic [ref=e539]: React Native
+          - generic [ref=e540]: Vite
+          - generic [ref=e541]: Tailwind CSS
+          - generic [ref=e542]: Vue.js
+      - generic [ref=e543]:
+        - heading "Backend & APIs" [level=4] [ref=e544]
+        - generic [ref=e545]:
+          - generic [ref=e546]: Node.js
+          - generic [ref=e547]: Express
+          - generic [ref=e548]: Java Spring Boot
+          - generic [ref=e549]: Python
+          - generic [ref=e550]: WebSocket
+          - generic [ref=e551]: REST APIs
+          - generic [ref=e552]: GraphQL
+      - generic [ref=e553]:
+        - heading "AI & Voice" [level=4] [ref=e554]
+        - generic [ref=e555]:
+          - generic [ref=e556]: Claude API
+          - generic [ref=e557]: OpenAI
+          - generic [ref=e558]: Gemini
+          - generic [ref=e559]: Voice AI
+          - generic [ref=e560]: Speech-to-Text
+          - generic [ref=e561]: LangChain
+      - generic [ref=e562]:
+        - heading "Database & Cloud" [level=4] [ref=e563]
+        - generic [ref=e564]:
+          - generic [ref=e565]: PostgreSQL
+          - generic [ref=e566]: Redis
+          - generic [ref=e567]: MongoDB
+          - generic [ref=e568]: Hetzner
+          - generic [ref=e569]: AWS
+          - generic [ref=e570]: Firebase
+      - generic [ref=e571]:
+        - heading "DevOps & Infrastructure" [level=4] [ref=e572]
+        - generic [ref=e573]:
+          - generic [ref=e574]: Docker
+          - generic [ref=e575]: Terraform
+          - generic [ref=e576]: Ansible
+          - generic [ref=e577]: Nginx
+          - generic [ref=e578]: Prometheus
+          - generic [ref=e579]: Grafana
+          - generic [ref=e580]: Playwright
+  - generic [ref=e583]:
+    - heading "Let's Work Together" [level=2] [ref=e584]
+    - paragraph [ref=e585]: Ready to transform your business with better software?
+    - generic [ref=e586]:
+      - generic [ref=e587]:
+        - generic [ref=e588]: "@"
+        - link "consulting@awani.ai" [ref=e589] [cursor=pointer]:
+          - /url: mailto:consulting@awani.ai
+      - generic [ref=e590]:
+        - generic [ref=e591]: ⚡
+        - generic [ref=e592]: Ohio, USA (Serving clients globally)
+      - generic [ref=e593]:
+        - generic [ref=e594]: 24/7
+        - generic [ref=e595]: 20+ hrs bandwidth/day - Multiple specialists working in shifts
+    - button "Schedule Discovery Call" [ref=e596] [cursor=pointer]
+  - contentinfo [ref=e597]:
+    - generic [ref=e598]:
+      - generic [ref=e599]:
+        - generic [ref=e600]:
+          - generic [ref=e601] [cursor=pointer]: Awani
+          - paragraph [ref=e602]: Product Consultant & AI Specialist
+        - generic [ref=e603]:
+          - link "Solutions" [ref=e604] [cursor=pointer]:
+            - /url: "#services"
+          - link "Case Studies" [ref=e605] [cursor=pointer]:
+            - /url: "#case-study"
+          - link "Pricing" [ref=e606] [cursor=pointer]:
+            - /url: "#pricing"
+          - link "Contact" [ref=e607] [cursor=pointer]:
+            - /url: "#contact"
+      - generic [ref=e608]:
+        - paragraph [ref=e609]: 🕌 Committed to ethical, Shariah-compliant business practices
+        - paragraph [ref=e610]: © 2026 Awani Product Consulting. All rights reserved.
+```
