@@ -393,8 +393,8 @@ function App() {
                 <h4>Results</h4>
                 <div className="results-grid">
                   <div className="result-item">
-                    <div className="result-value gradient-text">$59.99/mo</div>
-                    <div className="result-label">Product serving trucking companies</div>
+                    <div className="result-value gradient-text">Trucking</div>
+                    <div className="result-label">Industry-specific Voice AI SaaS</div>
                   </div>
                   <div className="result-item">
                     <div className="result-value gradient-text">90%</div>
