@@ -953,7 +953,7 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p className="shariah-notice">🕌 Committed to ethical, Shariah-compliant business practices</p>
+            <p className="shariah-notice">Committed to ethical business practices</p>
             <p>© 2026 Awani Product Consulting. All rights reserved.</p>
           </div>
         </div>
