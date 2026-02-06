@@ -943,7 +943,7 @@ function App() {
           <div className="footer-content">
             <div className="footer-left">
               <div className="logo gradient-text" onClick={() => scrollToSection('home')} style={{ cursor: 'pointer' }}>Awani</div>
-              <p>Product Consultant & AI Specialist</p>
+              <p>Scaling to cover the globe...</p>
             </div>
             <div className="footer-links">
               <a href="#services">Solutions</a>
