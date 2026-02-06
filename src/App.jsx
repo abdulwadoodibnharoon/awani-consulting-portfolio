@@ -393,8 +393,8 @@ function App() {
                 <h4>Results</h4>
                 <div className="results-grid">
                   <div className="result-item">
-                    <div className="result-value gradient-text">Trucking</div>
-                    <div className="result-label">Industry-specific Voice AI SaaS</div>
+                    <div className="result-value gradient-text">$59.99/mo</div>
+                    <div className="result-label">Product serving trucking companies</div>
                   </div>
                   <div className="result-item">
                     <div className="result-value gradient-text">90%</div>
@@ -429,70 +429,6 @@ function App() {
                 <p>Lead tech consultant for a startup building GPS tracking and video telematics platform from ground zero for commercial fleets, insurance companies, and government agencies.</p>
               </div>
 
-          <div className="case-study-card glass-card">
-            <div className="case-study-header">
-              <h3>Smart Grid & Smart Meter IoT</h3>
-              <div className="case-study-tags">
-                <span className="tag">IoT</span>
-                <span className="tag">Utilities</span>
-                <span className="tag">Enterprise</span>
-              </div>
-            </div>
-
-            <div className="case-study-content">
-              <div className="case-study-section">
-                <h4>Challenge</h4>
-                <p>Deployed Smart Grid and Smart Meter IoT software optimization for Global Energy Infrastructure Provider working with National Utility Authority in Saudi Arabia, requiring utility-grade reliability and real-time monitoring.</p>
-              </div>
-
-          <div className="case-study-card glass-card">
-            <div className="case-study-header">
-              <h3>Water Network Monitoring IoT</h3>
-              <div className="case-study-tags">
-                <span className="tag">IoT</span>
-                <span className="tag">Utilities</span>
-                <span className="tag">MENA</span>
-              </div>
-            </div>
-
-            <div className="case-study-content">
-              <div className="case-study-section">
-                <h4>Challenge</h4>
-                <p>Deployed Water Network Monitoring Systems for Gulf Region Utility Authorities (UAE & Qatar) requiring real-time leak detection, pressure monitoring, and network-wide analytics for critical water infrastructure.</p>
-              </div>
-
-          <div className="case-study-card glass-card">
-            <div className="case-study-header">
-              <h3>EdTech SaaS Platform</h3>
-              <div className="case-study-tags">
-                <span className="tag">SaaS</span>
-                <span className="tag">Education</span>
-                <span className="tag">Enterprise</span>
-              </div>
-            </div>
-
-            <div className="case-study-content">
-              <div className="case-study-section">
-                <h4>Challenge</h4>
-                <p>Built enterprise SaaS platform from scratch for educational institutions requiring multi-tenant architecture, role-based access control, and scalable content delivery for thousands of concurrent users.</p>
-              </div>
-
-          <div className="case-study-card glass-card">
-            <div className="case-study-header">
-              <h3>Private Cloud Enterprise AI Platform</h3>
-              <div className="case-study-tags">
-                <span className="tag">AI/ML</span>
-                <span className="tag">Government</span>
-                <span className="tag">Security</span>
-              </div>
-            </div>
-
-            <div className="case-study-content">
-              <div className="case-study-section">
-                <h4>Challenge</h4>
-                <p>Enterprises and government organizations requiring AI capabilities while maintaining complete data sovereignty and IP privacy. Built secure, on-premises LLM deployment with enterprise chat platform to replace security-compromised commercial messaging apps.</p>
-              </div>
-
               <div className="case-study-section">
                 <h4>Solution</h4>
                 <ul>
@@ -523,6 +459,206 @@ function App() {
 
               <div className="case-study-tech">
                 <strong>Technologies:</strong> Java Spring Boot, PostgreSQL, Redis, AWS, GPS/Telematics APIs, Video Streaming, Mobile Development, Enterprise Architecture
+              </div>
+            </div>
+          </div>
+
+          <div className="case-study-card glass-card">
+            <div className="case-study-header">
+              <h3>Smart Grid & Smart Meter IoT</h3>
+              <div className="case-study-tags">
+                <span className="tag">IoT</span>
+                <span className="tag">Utilities</span>
+                <span className="tag">Enterprise</span>
+              </div>
+            </div>
+
+            <div className="case-study-content">
+              <div className="case-study-section">
+                <h4>Challenge</h4>
+                <p>Deployed Smart Grid and Smart Meter IoT software optimization for Global Energy Infrastructure Provider working with National Utility Authority in Saudi Arabia, requiring utility-grade reliability and real-time monitoring.</p>
+              </div>
+
+              <div className="case-study-section">
+                <h4>Solution</h4>
+                <ul>
+                  <li>Optimized large-scale utility IoT platform deployment</li>
+                  <li>Implemented real-time grid monitoring and analytics systems</li>
+                  <li>Built smart meter data management and optimization layer</li>
+                  <li>Deployed mission-critical infrastructure at national utility scale</li>
+                </ul>
+              </div>
+
+              <div className="case-study-section">
+                <h4>Results</h4>
+                <div className="results-grid">
+                  <div className="result-item">
+                    <div className="result-value gradient-text">National</div>
+                    <div className="result-label">Utility Authority deployment (Saudi Arabia)</div>
+                  </div>
+                  <div className="result-item">
+                    <div className="result-value gradient-text">Utility-Grade</div>
+                    <div className="result-label">Mission-critical reliability</div>
+                  </div>
+                  <div className="result-item">
+                    <div className="result-value gradient-text">Real-Time</div>
+                    <div className="result-label">Grid monitoring & analytics</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="case-study-tech">
+                <strong>Technologies:</strong> IoT Platform Architecture, SCADA Systems, Real-Time Analytics, PostgreSQL, Time-Series Databases, MQTT, Microservices, High Availability Systems
+              </div>
+            </div>
+          </div>
+
+          <div className="case-study-card glass-card">
+            <div className="case-study-header">
+              <h3>Water Network Monitoring IoT</h3>
+              <div className="case-study-tags">
+                <span className="tag">IoT</span>
+                <span className="tag">Utilities</span>
+                <span className="tag">MENA</span>
+              </div>
+            </div>
+
+            <div className="case-study-content">
+              <div className="case-study-section">
+                <h4>Challenge</h4>
+                <p>Deployed Water Network Monitoring Systems for Gulf Region Utility Authorities (UAE & Qatar) requiring real-time leak detection, pressure monitoring, and network-wide analytics for critical water infrastructure.</p>
+              </div>
+
+              <div className="case-study-section">
+                <h4>Solution</h4>
+                <ul>
+                  <li>Deployed water network IoT monitoring infrastructure</li>
+                  <li>Implemented real-time leak detection and pressure management systems</li>
+                  <li>Built network-wide analytics and reporting dashboards</li>
+                  <li>Integrated with existing SCADA and utility management systems</li>
+                </ul>
+              </div>
+
+              <div className="case-study-section">
+                <h4>Results</h4>
+                <div className="results-grid">
+                  <div className="result-item">
+                    <div className="result-value gradient-text">2 Countries</div>
+                    <div className="result-label">Deployed in UAE & Qatar utilities</div>
+                  </div>
+                  <div className="result-item">
+                    <div className="result-value gradient-text">Real-Time</div>
+                    <div className="result-label">Network monitoring & leak detection</div>
+                  </div>
+                  <div className="result-item">
+                    <div className="result-value gradient-text">Critical</div>
+                    <div className="result-label">Water infrastructure operations</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="case-study-tech">
+                <strong>Technologies:</strong> IoT Sensors, SCADA Integration, Real-Time Monitoring, Time-Series Databases, GIS Systems, MQTT, PostgreSQL, Analytics Dashboards
+              </div>
+            </div>
+          </div>
+
+          <div className="case-study-card glass-card">
+            <div className="case-study-header">
+              <h3>EdTech SaaS Platform</h3>
+              <div className="case-study-tags">
+                <span className="tag">SaaS</span>
+                <span className="tag">Education</span>
+                <span className="tag">Enterprise</span>
+              </div>
+            </div>
+
+            <div className="case-study-content">
+              <div className="case-study-section">
+                <h4>Challenge</h4>
+                <p>Built enterprise SaaS platform from scratch for educational institutions requiring multi-tenant architecture, role-based access control, and scalable content delivery for thousands of concurrent users.</p>
+              </div>
+
+              <div className="case-study-section">
+                <h4>Solution</h4>
+                <ul>
+                  <li>Architected multi-tenant SaaS platform with isolated data models</li>
+                  <li>Implemented scalable backend infrastructure on cloud</li>
+                  <li>Built comprehensive admin dashboard and student portal</li>
+                  <li>Deployed enterprise security and RBAC systems</li>
+                </ul>
+              </div>
+
+              <div className="case-study-section">
+                <h4>Results</h4>
+                <div className="results-grid">
+                  <div className="result-item">
+                    <div className="result-value gradient-text">8 Years</div>
+                    <div className="result-label">As CTO</div>
+                  </div>
+                  <div className="result-item">
+                    <div className="result-value gradient-text">Enterprise</div>
+                    <div className="result-label">Multiple educational institutions served</div>
+                  </div>
+                  <div className="result-item">
+                    <div className="result-value gradient-text">Ground Zero</div>
+                    <div className="result-label">Built SaaS platform from scratch</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="case-study-tech">
+                <strong>Technologies:</strong> Java Spring Boot, PostgreSQL, Redis, AWS, Multi-tenant Architecture, RBAC, RESTful APIs, Microservices, Docker, Kubernetes
+              </div>
+            </div>
+          </div>
+
+          <div className="case-study-card glass-card">
+            <div className="case-study-header">
+              <h3>Private Cloud Enterprise AI Platform</h3>
+              <div className="case-study-tags">
+                <span className="tag">AI/ML</span>
+                <span className="tag">Government</span>
+                <span className="tag">Security</span>
+              </div>
+            </div>
+
+            <div className="case-study-content">
+              <div className="case-study-section">
+                <h4>Challenge</h4>
+                <p>Enterprises and government organizations requiring AI capabilities while maintaining complete data sovereignty and IP privacy. Built secure, on-premises LLM deployment with enterprise chat platform to replace security-compromised commercial messaging apps.</p>
+              </div>
+
+              <div className="case-study-section">
+                <h4>Solution</h4>
+                <ul>
+                  <li>Deployed open-source LLM models in private data centers (on-premises)</li>
+                  <li>Built enterprise chat application with AI bot integration</li>
+                  <li>Implemented end-to-end encryption and air-gapped deployment options</li>
+                  <li>Created secure alternative to WhatsApp/Teams for government & enterprise use</li>
+                </ul>
+              </div>
+
+              <div className="case-study-section">
+                <h4>Results</h4>
+                <div className="results-grid">
+                  <div className="result-item">
+                    <div className="result-value gradient-text">100%</div>
+                    <div className="result-label">Data sovereignty & IP privacy</div>
+                  </div>
+                  <div className="result-item">
+                    <div className="result-value gradient-text">On-Prem</div>
+                    <div className="result-label">Private cloud/DC deployment</div>
+                  </div>
+                  <div className="result-item">
+                    <div className="result-value gradient-text">Gov/Enterprise</div>
+                    <div className="result-label">Secure messaging for sensitive orgs</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="case-study-tech">
+                <strong>Technologies:</strong> Open-Source LLMs (Llama, Mistral), Private Cloud Infrastructure, Kubernetes, Docker, End-to-End Encryption, Air-Gapped Networks, Enterprise Chat (Matrix/Mattermost), Python, PostgreSQL, Redis
               </div>
             </div>
           </div>
@@ -573,111 +709,6 @@ function App() {
 
               <div className="case-study-tech">
                 <strong>Technologies:</strong> React, Node.js, Express, PostgreSQL, Redis, REST APIs, JWT Auth, Docker, AWS EC2
-              </div>
-            </div>
-          </div>
-
-
-              <div className="case-study-section">
-                <h4>Solution</h4>
-                <ul>
-                  <li>Architected multi-tenant SaaS platform with isolated data models</li>
-                  <li>Implemented scalable backend infrastructure on cloud</li>
-                  <li>Built comprehensive admin dashboard and student portal</li>
-                  <li>Deployed enterprise security and RBAC systems</li>
-                </ul>
-              </div>
-
-              <div className="case-study-section">
-                <h4>Results</h4>
-                <div className="results-grid">
-                  <div className="result-item">
-                    <div className="result-value gradient-text">8 Years</div>
-                    <div className="result-label">As CTO</div>
-                  </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">Enterprise</div>
-                    <div className="result-label">Multiple educational institutions served</div>
-                  </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">Ground Zero</div>
-                    <div className="result-label">Built SaaS platform from scratch</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="case-study-tech">
-                <strong>Technologies:</strong> Java Spring Boot, PostgreSQL, Redis, AWS, Multi-tenant Architecture, RBAC, RESTful APIs, Microservices, Docker, Kubernetes
-              </div>
-            </div>
-          </div>
-
-
-              <div className="case-study-section">
-                <h4>Solution</h4>
-                <ul>
-                  <li>Optimized large-scale utility IoT platform deployment</li>
-                  <li>Implemented real-time grid monitoring and analytics systems</li>
-                  <li>Built smart meter data management and optimization layer</li>
-                  <li>Deployed mission-critical infrastructure at national utility scale</li>
-                </ul>
-              </div>
-
-              <div className="case-study-section">
-                <h4>Results</h4>
-                <div className="results-grid">
-                  <div className="result-item">
-                    <div className="result-value gradient-text">National</div>
-                    <div className="result-label">Utility Authority deployment (Saudi Arabia)</div>
-                  </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">Utility-Grade</div>
-                    <div className="result-label">Mission-critical reliability</div>
-                  </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">Real-Time</div>
-                    <div className="result-label">Grid monitoring & analytics</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="case-study-tech">
-                <strong>Technologies:</strong> IoT Platform Architecture, SCADA Systems, Real-Time Analytics, PostgreSQL, Time-Series Databases, MQTT, Microservices, High Availability Systems
-              </div>
-            </div>
-          </div>
-
-
-              <div className="case-study-section">
-                <h4>Solution</h4>
-                <ul>
-                  <li>Deployed water network IoT monitoring infrastructure</li>
-                  <li>Implemented real-time leak detection and pressure management systems</li>
-                  <li>Built network-wide analytics and reporting dashboards</li>
-                  <li>Integrated with existing SCADA and utility management systems</li>
-                </ul>
-              </div>
-
-              <div className="case-study-section">
-                <h4>Results</h4>
-                <div className="results-grid">
-                  <div className="result-item">
-                    <div className="result-value gradient-text">2 Countries</div>
-                    <div className="result-label">Deployed in UAE & Qatar utilities</div>
-                  </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">Real-Time</div>
-                    <div className="result-label">Network monitoring & leak detection</div>
-                  </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">Critical</div>
-                    <div className="result-label">Water infrastructure operations</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="case-study-tech">
-                <strong>Technologies:</strong> IoT Sensors, SCADA Integration, Real-Time Monitoring, Time-Series Databases, GIS Systems, MQTT, PostgreSQL, Analytics Dashboards
               </div>
             </div>
           </div>
@@ -734,39 +765,10 @@ function App() {
 
 
 
-              <div className="case-study-section">
-                <h4>Solution</h4>
-                <ul>
-                  <li>Deployed open-source LLM models in private data centers (on-premises)</li>
-                  <li>Built enterprise chat application with AI bot integration</li>
-                  <li>Implemented end-to-end encryption and air-gapped deployment options</li>
-                  <li>Created secure alternative to WhatsApp/Teams for government & enterprise use</li>
-                </ul>
-              </div>
 
-              <div className="case-study-section">
-                <h4>Results</h4>
-                <div className="results-grid">
-                  <div className="result-item">
-                    <div className="result-value gradient-text">100%</div>
-                    <div className="result-label">Data sovereignty & IP privacy</div>
-                  </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">On-Prem</div>
-                    <div className="result-label">Private cloud/DC deployment</div>
-                  </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">Gov/Enterprise</div>
-                    <div className="result-label">Secure messaging for sensitive orgs</div>
-                  </div>
-                </div>
-              </div>
 
-              <div className="case-study-tech">
-                <strong>Technologies:</strong> Open-Source LLMs (Llama, Mistral), Private Cloud Infrastructure, Kubernetes, Docker, End-to-End Encryption, Air-Gapped Networks, Enterprise Chat (Matrix/Mattermost), Python, PostgreSQL, Redis
-              </div>
-            </div>
-          </div>
+
+
           </div>
         </div>
       </section>
