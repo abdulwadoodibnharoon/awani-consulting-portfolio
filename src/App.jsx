@@ -205,21 +205,21 @@ function App() {
             {/* HIGH PRIORITY - Matching Solutions & Case Studies */}
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">🤖</div>
+              <div className="expert-icon">🧠</div>
               <h4>Local AI/ML Specialist</h4>
               <p className="expert-experience">10+ years experience</p>
               <p className="expert-description">On-device AI, edge computing, model optimization, offline-first ML systems</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">📱</div>
+              <div className="expert-icon">📡</div>
               <h4>IoT Architecture Expert</h4>
               <p className="expert-experience">12+ years experience</p>
               <p className="expert-description">Smart cities, industrial IoT, sensor networks, real-time data processing</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">📡</div>
+              <div className="expert-icon">🌐</div>
               <h4>Telecommunications IoT Specialist</h4>
               <p className="expert-experience">15+ years experience</p>
               <p className="expert-description">Carrier-grade IoT deployments for Sprint, Verizon, AT&T, Telstra, STC, Ooredoo, Saudi NIC</p>
@@ -233,14 +233,14 @@ function App() {
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">🚛</div>
+              <div className="expert-icon">🗺️</div>
               <h4>Fleet Management Specialist</h4>
               <p className="expert-experience">15+ years experience</p>
               <p className="expert-description">GPS tracking, telematics, mobile workforce solutions, logistics optimization</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">🏢</div>
+              <div className="expert-icon">🏛️</div>
               <h4>Enterprise Architect</h4>
               <p className="expert-experience">20+ years experience</p>
               <p className="expert-description">TOGAF certified, system integration, digital transformation, legacy modernization</p>
@@ -254,14 +254,14 @@ function App() {
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">📐</div>
+              <div className="expert-icon">⚙️</div>
               <h4>SaaS Architecture Expert</h4>
               <p className="expert-experience">16+ years experience</p>
               <p className="expert-description">Multi-tenancy, subscription billing, horizontal scaling, SaaS metrics optimization</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">🚀</div>
+              <div className="expert-icon">💎</div>
               <h4>Product Development Expert</h4>
               <p className="expert-experience">15+ years experience</p>
               <p className="expert-description">0-to-1 product building, MVP development, product-market fit, launch strategy</p>
@@ -270,7 +270,7 @@ function App() {
             {/* MEDIUM PRIORITY - Supporting Skills */}
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">⚡</div>
+              <div className="expert-icon">🎯</div>
               <h4>Performance & Scalability Specialist</h4>
               <p className="expert-experience">15+ years experience</p>
               <p className="expert-description">Robustness engineering, horizontal scaling, load optimization, sub-second response times</p>
@@ -284,7 +284,7 @@ function App() {
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">🔒</div>
+              <div className="expert-icon">🛡️</div>
               <h4>Security Architect</h4>
               <p className="expert-experience">12+ years experience</p>
               <p className="expert-description">Application security, penetration testing, OWASP standards, zero-trust architecture</p>
@@ -298,49 +298,49 @@ function App() {
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">🚗</div>
+              <div className="expert-icon">🚘</div>
               <h4>Automotive Systems Expert</h4>
               <p className="expert-experience">12+ years experience</p>
               <p className="expert-description">Infotainment systems, navigation, telematics, embedded automotive electronics</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">🏦</div>
+              <div className="expert-icon">💳</div>
               <h4>Banking Automation Specialist</h4>
               <p className="expert-experience">10+ years experience</p>
               <p className="expert-description">Fully automated bank branch (zero staff), remote monitoring & auto-repair for ATMs, cash management systems</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">📚</div>
+              <div className="expert-icon">🎓</div>
               <h4>EdTech Consultant</h4>
               <p className="expert-experience">10+ years experience</p>
               <p className="expert-description">Learning management systems, educational platforms, SaaS for education</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">✅</div>
+              <div className="expert-icon">🧪</div>
               <h4>QA Automation Specialist</h4>
               <p className="expert-experience">12+ years experience</p>
               <p className="expert-description">Test automation, CI/CD pipelines, regression testing, quality assurance frameworks</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">🔥</div>
+              <div className="expert-icon">⚠️</div>
               <h4>Chaos Engineering Expert</h4>
               <p className="expert-experience">10+ years experience</p>
               <p className="expert-description">Resilience testing, fault injection, disaster recovery, high-availability systems</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">🎨</div>
+              <div className="expert-icon">✨</div>
               <h4>UI/UX Design Expert</h4>
               <p className="expert-experience">10+ years experience</p>
               <p className="expert-description">User-centered design, design systems, responsive interfaces, accessibility standards</p>
             </div>
 
             <div className="expert-card glass-card">
-              <div className="expert-icon">💰</div>
+              <div className="expert-icon">🕌</div>
               <h4>Islamic FinTech Specialist</h4>
               <p className="expert-experience">14+ years experience</p>
               <p className="expert-description">Shariah-compliant payment systems, Islamic banking automation, Takaful platforms, halal e-commerce</p>
