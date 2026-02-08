@@ -31,7 +31,7 @@ function App() {
       <nav className="nav">
         <div className="nav-content">
           <div className="logo-container" onClick={() => scrollToSection('home')}>
-            <img src="/awani-logo.png" alt="Awani" className="logo-image" />
+            <img src="/awani-icon.png" alt="Awani" className="logo-image" />
             <span className="logo-text gradient-text">Awani</span>
           </div>
           <div className="nav-links">
@@ -41,7 +41,7 @@ function App() {
             <a href="#pricing" onClick={() => scrollToSection('pricing')}>Pricing</a>
             <a href="#contact" onClick={() => scrollToSection('contact')}>Contact</a>
           </div>
-          <button className="cta-button">Book Call</button>
+          <a href="mailto:consulting@awani.ai?subject=Consulting%20Inquiry" className="cta-button">Book Call</a>
         </div>
       </nav>
 
@@ -850,6 +850,8 @@ function App() {
                 <span className="tech-tag">Next.js</span>
                 <span className="tech-tag">Flutter</span>
                 <span className="tech-tag">React Native</span>
+                <span className="tech-tag">Swift/SwiftUI</span>
+                <span className="tech-tag">Kotlin/Jetpack Compose</span>
                 <span className="tech-tag">Vite</span>
                 <span className="tech-tag">Tailwind CSS</span>
                 <span className="tech-tag">Vue.js</span>
@@ -865,40 +867,52 @@ function App() {
                 <span className="tech-tag">WebSocket</span>
                 <span className="tech-tag">REST APIs</span>
                 <span className="tech-tag">GraphQL</span>
+                <span className="tech-tag">Microservices</span>
               </div>
             </div>
             <div className="tech-category">
               <h4>AI & Voice</h4>
               <div className="tech-tags">
-                <span className="tech-tag">Claude API</span>
-                <span className="tech-tag">OpenAI</span>
-                <span className="tech-tag">Gemini</span>
+                <span className="tech-tag">Multi-Model AI Integration</span>
                 <span className="tech-tag">Voice AI</span>
                 <span className="tech-tag">Speech-to-Text</span>
+                <span className="tech-tag">LLM Fine-Tuning</span>
+                <span className="tech-tag">Computer Vision</span>
                 <span className="tech-tag">LangChain</span>
               </div>
             </div>
             <div className="tech-category">
-              <h4>Database & Cloud</h4>
+              <h4>Data & Cloud</h4>
               <div className="tech-tags">
-                <span className="tech-tag">PostgreSQL</span>
-                <span className="tech-tag">Redis</span>
+                <span className="tech-tag">High-Performance RDBMS</span>
+                <span className="tech-tag">In-Memory Caching</span>
                 <span className="tech-tag">MongoDB</span>
-                <span className="tech-tag">Hetzner</span>
-                <span className="tech-tag">AWS</span>
-                <span className="tech-tag">Firebase</span>
+                <span className="tech-tag">Time-Series DBs</span>
+                <span className="tech-tag">Multi-Cloud</span>
+                <span className="tech-tag">Edge Computing</span>
               </div>
             </div>
             <div className="tech-category">
               <h4>DevOps & Infrastructure</h4>
               <div className="tech-tags">
-                <span className="tech-tag">Docker</span>
-                <span className="tech-tag">Terraform</span>
-                <span className="tech-tag">Ansible</span>
+                <span className="tech-tag">Containers</span>
+                <span className="tech-tag">K8s</span>
+                <span className="tech-tag">IaC</span>
+                <span className="tech-tag">CI/CD</span>
                 <span className="tech-tag">Nginx</span>
-                <span className="tech-tag">Prometheus</span>
-                <span className="tech-tag">Grafana</span>
+                <span className="tech-tag">Monitoring & Observability</span>
                 <span className="tech-tag">Playwright</span>
+              </div>
+            </div>
+            <div className="tech-category">
+              <h4>IoT & Embedded</h4>
+              <div className="tech-tags">
+                <span className="tech-tag">SCADA</span>
+                <span className="tech-tag">MQTT</span>
+                <span className="tech-tag">Sensor Networks</span>
+                <span className="tech-tag">ARM Cortex</span>
+                <span className="tech-tag">Energy Harvesting</span>
+                <span className="tech-tag">5G/NB-IoT</span>
               </div>
             </div>
           </div>
@@ -913,19 +927,19 @@ function App() {
             <p>Ready to transform your business with better software?</p>
             <div className="contact-info">
               <div className="contact-item">
-                <div className="contact-icon-box">@</div>
+                <div className="contact-icon-box"><i className="fa-solid fa-envelope"></i></div>
                 <a href="mailto:consulting@awani.ai">consulting@awani.ai</a>
               </div>
               <div className="contact-item">
-                <div className="contact-icon-box">⚡</div>
+                <div className="contact-icon-box"><i className="fa-solid fa-location-dot"></i></div>
                 <span>Ohio, USA (Serving clients globally)</span>
               </div>
               <div className="contact-item">
-                <div className="contact-icon-box">24/7</div>
-                <span>20+ hrs bandwidth/day - Multiple specialists working in shifts</span>
+                <div className="contact-icon-box"><i className="fa-solid fa-clock"></i></div>
+                <span>Available across all time zones</span>
               </div>
             </div>
-            <button className="primary-button glow-button">Schedule Discovery Call</button>
+            <a href="mailto:consulting@awani.ai?subject=Discovery%20Call%20Request" className="primary-button glow-button">Schedule Discovery Call</a>
           </div>
         </div>
       </section>
@@ -935,7 +949,10 @@ function App() {
         <div className="container">
           <div className="footer-content">
             <div className="footer-left">
-              <div className="logo gradient-text" onClick={() => scrollToSection('home')} style={{ cursor: 'pointer' }}>Awani</div>
+              <div className="footer-brand" onClick={() => scrollToSection('home')} style={{ cursor: 'pointer' }}>
+                <img src="/awani-icon.png" alt="Awani" className="footer-logo" />
+                <span className="logo gradient-text">Awani Product Consulting</span>
+              </div>
               <p>Scaling to cover the globe...</p>
             </div>
             <div className="footer-links">
@@ -948,6 +965,7 @@ function App() {
           <div className="footer-bottom">
             <p className="shariah-notice">Committed to ethical business practices</p>
             <p>© 2026 Awani Product Consulting. All rights reserved.</p>
+            <a href="mailto:consulting@awani.ai" className="footer-email">consulting@awani.ai</a>
           </div>
         </div>
       </footer>

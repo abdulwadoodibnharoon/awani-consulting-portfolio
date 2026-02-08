@@ -1077,6 +1077,39 @@ body {
   opacity: 0.9;
 }
 
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-logo {
+  height: 35px;
+  width: auto;
+  filter: drop-shadow(0 0 8px rgba(0, 217, 179, 0.3));
+}
+
+.footer-email {
+  color: var(--teal-bright);
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.footer-email:hover {
+  color: var(--green-bright);
+}
+
+/* Anchor buttons should look like buttons */
+a.cta-button,
+a.primary-button {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
 /* Responsive Design - Mobile First Approach */
 
 /* Tablet (768px - 1024px) */
