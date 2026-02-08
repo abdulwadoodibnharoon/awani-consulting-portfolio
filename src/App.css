@@ -1092,14 +1092,14 @@ body {
 }
 
 /* Mobile (max-width: 768px) */
-@media (max-width: 768px) {
-  /* Navigation */
+@media (max-width: 767px) {
+  /* Navigation - Mobile only, keep visible on tablet (768px+) */
   .nav-content {
     padding: 1rem 1.5rem;
   }
 
   .nav-links {
-    display: none; /* TODO: Add mobile menu */
+    display: none; /* Mobile menu needed for phones */
   }
 
   .cta-button {
@@ -1264,6 +1264,27 @@ body {
   }
 }
 
+/* Tablet-specific optimizations (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Case studies: 2-column grid on tablet */
+  .case-studies-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* Services: 2-column grid on tablet */
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* Pricing: 2-column grid on tablet */
+  .pricing-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
 /* Small Mobile (max-width: 480px) */
 @media (max-width: 480px) {
   .logo-image {
@@ -1275,7 +1296,17 @@ body {
   }
 
   .hero-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 100%;
+    display: block;
+  }
+
+  /* Hide line breaks on mobile for natural text wrapping */
+  .hero-title br {
+    display: none;
   }
 
   .hero-description {

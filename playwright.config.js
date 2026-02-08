@@ -18,10 +18,6 @@ export default defineConfig({
 
   projects: [
     {
-      name: 'chromium-desktop',
-      use: { ...devices['Desktop Chrome'] },
-    },
-    {
       name: 'chromium-mobile',
       use: {
         ...devices['Desktop Chrome'],
@@ -35,6 +31,17 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         viewport: { width: 768, height: 1024 },
         isMobile: true,
+      },
+    },
+    {
+      name: 'chromium-desktop',
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'chromium-large-screen',
+      use: {
+        ...devices['Desktop Chrome'],
+        viewport: { width: 1920, height: 1080 },
       },
     },
   ],
