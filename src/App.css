@@ -532,6 +532,19 @@ body {
   font-size: 3rem;
   margin-bottom: 1rem;
   filter: drop-shadow(0 0 10px rgba(0, 217, 179, 0.3));
+  color: var(--teal-bright);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expert-icon i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.expert-card:hover .expert-icon i {
+  transform: scale(1.1);
+  color: var(--green-bright);
 }
 
 .expert-card h4 {
