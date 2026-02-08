@@ -383,9 +383,9 @@ function App() {
                 <h4>Solution</h4>
                 <ul>
                   <li>Designed and developed full-stack Voice AI platform</li>
-                  <li>Implemented Claude API for natural language processing</li>
+                  <li>Implemented proprietary API for natural language processing</li>
                   <li>Built Flutter mobile app + React dashboard</li>
-                  <li>Deployed scalable backend on AWS</li>
+                  <li>Deployed scalable backend on Multi-Cloud</li>
                 </ul>
               </div>
 
@@ -400,15 +400,11 @@ function App() {
                     <div className="result-value gradient-text">90%</div>
                     <div className="result-label">Voice accuracy</div>
                   </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">Production</div>
-                    <div className="result-label">Live at app.awani.ai</div>
-                  </div>
                 </div>
               </div>
 
               <div className="case-study-tech">
-                <strong>Technologies:</strong> React, TypeScript, Node.js, Flutter, Hetzner Cloud, OpenAI Realtime API, Claude API, WebSockets, PostgreSQL, Redis, Docker, Terraform
+                <strong>Technologies:</strong> React, TypeScript, Node.js, Flutter, Multi-Cloud, Proprietary Multi-AI Models, WebSockets, High-Performance RDBMS, Distributed In-Memory Cache, IaC, Containers
               </div>
             </div>
           </div>
@@ -426,7 +422,7 @@ function App() {
             <div className="case-study-content">
               <div className="case-study-section">
                 <h4>Challenge</h4>
-                <p>Lead tech consultant for a startup building GPS tracking and video telematics platform from ground zero for commercial fleets, insurance companies, and government agencies.</p>
+                <p>Lead tech consultants for a startup building GPS tracking and video telematics platform from ground zero for commercial fleets, insurance companies, and government agencies.</p>
               </div>
 
               <div className="case-study-section">
@@ -434,7 +430,7 @@ function App() {
                 <ul>
                   <li>Architected enterprise-grade mobility platform from scratch</li>
                   <li>Built GPS tracking, video telematics, and mobile workforce solutions</li>
-                  <li>Scaled infrastructure to support thousands of concurrent users</li>
+                  <li>Scaled infrastructure to support millions of concurrent messages</li>
                   <li>Implemented carrier-grade reliability and real-time data processing</li>
                 </ul>
               </div>
@@ -458,7 +454,7 @@ function App() {
               </div>
 
               <div className="case-study-tech">
-                <strong>Technologies:</strong> Java Spring Boot, PostgreSQL, Redis, AWS, GPS/Telematics APIs, Video Streaming, Mobile Development, Enterprise Architecture
+                <strong>Technologies:</strong> Java Spring Boot, High-Performance RDBMS, Distributed In-Memory Cache, Multi-Cloud, GPS/Telematics APIs, Video Streaming, Mobile Development, Enterprise Architecture, IaC, Containers
               </div>
             </div>
           </div>
@@ -476,7 +472,7 @@ function App() {
             <div className="case-study-content">
               <div className="case-study-section">
                 <h4>Challenge</h4>
-                <p>Deployed Smart Grid and Smart Meter IoT software optimization for Global Energy Infrastructure Provider working with National Utility Authority in Saudi Arabia, requiring utility-grade reliability and real-time monitoring.</p>
+                <p>Deployed Smart Grid and Smart Meter IoT software optimization for Global Energy Infrastructure Provider working with National Utility Authority, requiring utility-grade reliability and real-time monitoring.</p>
               </div>
 
               <div className="case-study-section">
@@ -494,7 +490,7 @@ function App() {
                 <div className="results-grid">
                   <div className="result-item">
                     <div className="result-value gradient-text">National</div>
-                    <div className="result-label">Utility Authority deployment (Saudi Arabia)</div>
+                    <div className="result-label">Utility Authority deployment</div>
                   </div>
                   <div className="result-item">
                     <div className="result-value gradient-text">Utility-Grade</div>
@@ -508,7 +504,7 @@ function App() {
               </div>
 
               <div className="case-study-tech">
-                <strong>Technologies:</strong> IoT Platform Architecture, SCADA Systems, Real-Time Analytics, PostgreSQL, Time-Series Databases, MQTT, Microservices, High Availability Systems
+                <strong>Technologies:</strong> IoT Platform Architecture, SCADA Systems, Real-Time Analytics, High-Performance RDBMS, Time-Series Databases, MQTT, Microservices, High Availability Systems
               </div>
             </div>
           </div>
@@ -526,7 +522,7 @@ function App() {
             <div className="case-study-content">
               <div className="case-study-section">
                 <h4>Challenge</h4>
-                <p>Deployed Water Network Monitoring Systems for Gulf Region Utility Authorities (UAE & Qatar) requiring real-time leak detection, pressure monitoring, and network-wide analytics for critical water infrastructure.</p>
+                <p>Deployed Water Network Monitoring Systems for Gulf Region Utility Authorities requiring real-time leak detection, pressure monitoring, and network-wide analytics for critical water infrastructure.</p>
               </div>
 
               <div className="case-study-section">
@@ -544,7 +540,7 @@ function App() {
                 <div className="results-grid">
                   <div className="result-item">
                     <div className="result-value gradient-text">2 Countries</div>
-                    <div className="result-label">Deployed in UAE & Qatar utilities</div>
+                    <div className="result-label">Deployed in Gulf Region utilities</div>
                   </div>
                   <div className="result-item">
                     <div className="result-value gradient-text">Real-Time</div>
@@ -558,7 +554,7 @@ function App() {
               </div>
 
               <div className="case-study-tech">
-                <strong>Technologies:</strong> IoT Sensors, SCADA Integration, Real-Time Monitoring, Time-Series Databases, GIS Systems, MQTT, PostgreSQL, Analytics Dashboards
+                <strong>Technologies:</strong> IoT Sensors, SCADA Integration, Real-Time Monitoring, Time-Series Databases, GIS Systems, MQTT, High-Performance RDBMS, Analytics Dashboards
               </div>
             </div>
           </div>
@@ -576,7 +572,7 @@ function App() {
             <div className="case-study-content">
               <div className="case-study-section">
                 <h4>Challenge</h4>
-                <p>Built enterprise SaaS platform from scratch for educational institutions requiring multi-tenant architecture, role-based access control, and scalable content delivery for thousands of concurrent users.</p>
+                <p>Built enterprise SaaS platform for educational institutions requiring multi-tenant architecture, role-based access control, and scalable content delivery for thousands of concurrent users.</p>
               </div>
 
               <div className="case-study-section">
@@ -594,21 +590,17 @@ function App() {
                 <div className="results-grid">
                   <div className="result-item">
                     <div className="result-value gradient-text">8 Years</div>
-                    <div className="result-label">As CTO</div>
+                    <div className="result-label">Leading the platform</div>
                   </div>
                   <div className="result-item">
                     <div className="result-value gradient-text">Enterprise</div>
                     <div className="result-label">Multiple educational institutions served</div>
                   </div>
-                  <div className="result-item">
-                    <div className="result-value gradient-text">Ground Zero</div>
-                    <div className="result-label">Built SaaS platform from scratch</div>
-                  </div>
                 </div>
               </div>
 
               <div className="case-study-tech">
-                <strong>Technologies:</strong> Java Spring Boot, PostgreSQL, Redis, AWS, Multi-tenant Architecture, RBAC, RESTful APIs, Microservices, Docker, Kubernetes
+                <strong>Technologies:</strong> Java Spring Boot, High-Performance RDBMS, Distributed In-Memory Cache, Multi-Cloud, Multi-tenant Architecture, RBAC, RESTful APIs, Microservices, IaC, Containers, K8s
               </div>
             </div>
           </div>
@@ -618,6 +610,7 @@ function App() {
               <h3>Private Cloud Enterprise AI Platform</h3>
               <div className="case-study-tags">
                 <span className="tag">AI/ML</span>
+                <span className="tag">Enterprise</span>
                 <span className="tag">Government</span>
                 <span className="tag">Security</span>
               </div>
@@ -635,7 +628,7 @@ function App() {
                   <li>Deployed open-source LLM models in private data centers (on-premises)</li>
                   <li>Built enterprise chat application with AI bot integration</li>
                   <li>Implemented end-to-end encryption and air-gapped deployment options</li>
-                  <li>Created secure alternative to WhatsApp/Teams for government & enterprise use</li>
+                  <li>Created secure alternative to commercial messaging apps for government & enterprise use</li>
                 </ul>
               </div>
 
@@ -658,7 +651,7 @@ function App() {
               </div>
 
               <div className="case-study-tech">
-                <strong>Technologies:</strong> Open-Source LLMs (Llama, Mistral), Private Cloud Infrastructure, Kubernetes, Docker, End-to-End Encryption, Air-Gapped Networks, Enterprise Chat (Matrix/Mattermost), Python, PostgreSQL, Redis
+                <strong>Technologies:</strong> Open-Source LLMs, Private Cloud Infrastructure, K8s, IaC, Containers, End-to-End Encryption, Air-Gapped Networks, Enterprise Chat, Python, High-Performance RDBMS, Distributed In-Memory Cache
               </div>
             </div>
           </div>
@@ -683,9 +676,9 @@ function App() {
                 <h4>Solution</h4>
                 <ul>
                   <li>Built REST API middleware to normalize data from disparate systems</li>
-                  <li>Implemented automated data sync pipelines with Redis caching</li>
+                  <li>Implemented automated data sync pipelines with distributed caching</li>
                   <li>Created React dashboard with role-based access control</li>
-                  <li>Designed PostgreSQL schema optimized for reporting queries</li>
+                  <li>Designed database schema optimized for reporting queries</li>
                 </ul>
               </div>
 
@@ -708,7 +701,7 @@ function App() {
               </div>
 
               <div className="case-study-tech">
-                <strong>Technologies:</strong> React, Node.js, Express, PostgreSQL, Redis, REST APIs, JWT Auth, Docker, AWS EC2
+                <strong>Technologies:</strong> React, Node.js, Express, High-Performance RDBMS, Distributed In-Memory Cache, REST APIs, JWT Auth, Containers, Multi-Cloud
               </div>
             </div>
           </div>
@@ -732,9 +725,9 @@ function App() {
               <div className="case-study-section">
                 <h4>Solution</h4>
                 <ul>
-                  <li>Architected credit card-sized form factor with integrated energy harvesting</li>
+                  <li>Architected debit card-sized form factor with integrated energy harvesting</li>
                   <li>Implemented ultra-low-power sensor aggregation and edge processing</li>
-                  <li>Built multi-protocol connectivity (LoRaWAN, NB-IoT, WiFi)</li>
+                  <li>Built multi-protocol connectivity (5G/6G eSIM, NB-IoT, WiFi)</li>
                   <li>Designed for solar/kinetic/thermal energy harvesting capabilities</li>
                 </ul>
               </div>
@@ -744,7 +737,7 @@ function App() {
                 <div className="results-grid">
                   <div className="result-item">
                     <div className="result-value gradient-text">Card Size</div>
-                    <div className="result-label">Credit card dimensions (length & width)</div>
+                    <div className="result-label">Debit card dimensions (length & width)</div>
                   </div>
                   <div className="result-item">
                     <div className="result-value gradient-text">Self-Powered</div>
@@ -758,7 +751,7 @@ function App() {
               </div>
 
               <div className="case-study-tech">
-                <strong>Technologies:</strong> Embedded Systems, ARM Cortex, LoRaWAN, NB-IoT, Energy Harvesting, Ultra-Low-Power Design, Edge Computing, C/C++, MQTT
+                <strong>Technologies:</strong> Embedded Systems, ARM Cortex, 5G/6G eSIM, NB-IoT, Energy Harvesting, Ultra-Low-Power Design, Edge Computing, C/C++, MQTT
               </div>
             </div>
           </div>
