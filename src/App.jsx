@@ -1,11 +1,77 @@
-import { useEffect } from 'react'
+import { useEffect, useState, useRef, useCallback } from 'react'
 import './App.css'
 
 function App() {
+  const [drawerOpen, setDrawerOpen] = useState(false)
+  const touchStartX = useRef(0)
+  const touchStartY = useRef(0)
+  const touchCurrentX = useRef(0)
+  const touchCurrentY = useRef(0)
+  const drawerRef = useRef(null)
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
     element?.scrollIntoView({ behavior: 'smooth' })
   }
+
+  const handleDrawerNav = useCallback((sectionId) => {
+    setDrawerOpen(false)
+    setTimeout(() => scrollToSection(sectionId), 300)
+  }, [])
+
+  // Lock body scroll when drawer is open
+  useEffect(() => {
+    if (drawerOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => { document.body.style.overflow = '' }
+  }, [drawerOpen])
+
+  // Edge swipe detection
+  useEffect(() => {
+    const EDGE_ZONE = 40
+    const SWIPE_THRESHOLD = 50
+
+    const onTouchStart = (e) => {
+      const touch = e.touches[0]
+      touchStartX.current = touch.clientX
+      touchStartY.current = touch.clientY
+      touchCurrentX.current = touch.clientX
+      touchCurrentY.current = touch.clientY
+    }
+
+    const onTouchMove = (e) => {
+      const touch = e.touches[0]
+      touchCurrentX.current = touch.clientX
+      touchCurrentY.current = touch.clientY
+    }
+
+    const onTouchEnd = () => {
+      const deltaX = touchCurrentX.current - touchStartX.current
+      const deltaY = Math.abs(touchCurrentY.current - touchStartY.current)
+
+      // Open: swipe right from left edge (horizontal swipe must dominate vertical)
+      if (!drawerOpen && touchStartX.current < EDGE_ZONE && deltaX > SWIPE_THRESHOLD && deltaX > deltaY) {
+        setDrawerOpen(true)
+      }
+      // Close: swipe left while drawer is open
+      if (drawerOpen && deltaX < -SWIPE_THRESHOLD) {
+        setDrawerOpen(false)
+      }
+    }
+
+    document.addEventListener('touchstart', onTouchStart, { passive: true })
+    document.addEventListener('touchmove', onTouchMove, { passive: true })
+    document.addEventListener('touchend', onTouchEnd, { passive: true })
+
+    return () => {
+      document.removeEventListener('touchstart', onTouchStart)
+      document.removeEventListener('touchmove', onTouchMove)
+      document.removeEventListener('touchend', onTouchEnd)
+    }
+  }, [drawerOpen])
 
   // Optimize scroll performance by reducing animations during scroll
   useEffect(() => {
@@ -30,9 +96,12 @@ function App() {
       {/* Navigation */}
       <nav className="nav">
         <div className="nav-content">
+          <button className="mobile-menu-toggle" onClick={() => setDrawerOpen(true)} aria-label="Open navigation menu">
+            <i className="fa-solid fa-bars"></i>
+          </button>
           <div className="logo-container" onClick={() => scrollToSection('home')}>
-            <img src="/awani-icon.png" alt="Awani" className="logo-image" />
-            <span className="logo-text gradient-text">Awani</span>
+            <img src="/awani-icon.png" alt="Awāni" className="logo-image" />
+            <span className="logo-text gradient-text">Awāni</span>
           </div>
           <div className="nav-links">
             <a href="#home" onClick={() => scrollToSection('home')}>Home</a>
@@ -44,6 +113,34 @@ function App() {
           <a href="mailto:consulting@awani.ai?subject=Consulting%20Inquiry" className="cta-button">Book Call</a>
         </div>
       </nav>
+
+      {/* Mobile Navigation Drawer */}
+      <div className={`drawer-backdrop ${drawerOpen ? 'open' : ''}`} onClick={() => setDrawerOpen(false)} />
+      <div className={`drawer ${drawerOpen ? 'open' : ''}`} ref={drawerRef}>
+        <div className="drawer-header">
+          <div className="drawer-brand" onClick={() => handleDrawerNav('home')}>
+            <img src="/awani-icon.png" alt="Awāni" className="drawer-logo" />
+            <span className="gradient-text">Awāni</span>
+          </div>
+          <button className="drawer-close" onClick={() => setDrawerOpen(false)} aria-label="Close navigation menu">
+            <i className="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div className="drawer-links">
+          <a onClick={() => handleDrawerNav('home')}><i className="fa-solid fa-house"></i> Home</a>
+          <a onClick={() => handleDrawerNav('services')}><i className="fa-solid fa-lightbulb"></i> Solutions</a>
+          <a onClick={() => handleDrawerNav('experts')}><i className="fa-solid fa-users"></i> Expert Consultants</a>
+          <a onClick={() => handleDrawerNav('case-study')}><i className="fa-solid fa-briefcase"></i> Case Studies</a>
+          <a onClick={() => handleDrawerNav('pricing')}><i className="fa-solid fa-tags"></i> Pricing</a>
+          <a onClick={() => handleDrawerNav('technology')}><i className="fa-solid fa-microchip"></i> Technology Expertise</a>
+          <a onClick={() => handleDrawerNav('contact')}><i className="fa-solid fa-envelope"></i> Contact</a>
+        </div>
+        <div className="drawer-footer">
+          <a href="mailto:consulting@awani.ai?subject=Consulting%20Inquiry" className="drawer-cta">
+            <i className="fa-solid fa-phone"></i> Book a Call
+          </a>
+        </div>
+      </div>
 
       {/* Hero Section */}
       <section id="home" className="hero">
@@ -365,7 +462,7 @@ function App() {
           <div className="case-studies-grid">
           <div className="case-study-card glass-card">
             <div className="case-study-header">
-              <h3>Awani Voice Assistant</h3>
+              <h3>Awāni Voice Assistant</h3>
               <div className="case-study-tags">
                 <span className="tag">Voice AI</span>
                 <span className="tag">Full-Stack</span>
@@ -838,7 +935,7 @@ function App() {
       </section>
 
       {/* Tech Stack Section */}
-      <section className="section dark-section">
+      <section id="technology" className="section dark-section">
         <div className="container">
           <h2 className="section-title">Technology Expertise</h2>
           <div className="tech-categories">
@@ -950,8 +1047,8 @@ function App() {
           <div className="footer-content">
             <div className="footer-left">
               <div className="footer-brand" onClick={() => scrollToSection('home')} style={{ cursor: 'pointer' }}>
-                <img src="/awani-icon.png" alt="Awani" className="footer-logo" />
-                <span className="logo gradient-text">Awani Product Consulting</span>
+                <img src="/awani-icon.png" alt="Awāni" className="footer-logo" />
+                <span className="logo gradient-text">Awāni Product Consulting</span>
               </div>
               <p>Scaling to cover the globe...</p>
             </div>
@@ -964,8 +1061,7 @@ function App() {
           </div>
           <div className="footer-bottom">
             <p className="shariah-notice">Committed to ethical business practices</p>
-            <p>© 2026 Awani Product Consulting. All rights reserved.</p>
-            <a href="mailto:consulting@awani.ai" className="footer-email">consulting@awani.ai</a>
+            <p>© 2026 Awāni Product Consulting. All rights reserved.</p>
           </div>
         </div>
       </footer>
