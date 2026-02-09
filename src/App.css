@@ -1147,19 +1147,17 @@ body {
 }
 
 .contact-info {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-bottom: 2.5rem;
-  flex-wrap: wrap;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 0.5rem 0;
 }
 
 .contact-icon-box {
@@ -1461,7 +1459,6 @@ body {
   }
 
   .contact-info {
-    flex-direction: column;
     align-items: center;
   }
 
