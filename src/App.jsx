@@ -19,6 +19,14 @@ function App() {
     setTimeout(() => scrollToSection(sectionId), 300)
   }, [])
 
+  const openChat = () => {
+    if (window.tidioChatApi) {
+      window.tidioChatApi.open()
+    } else {
+      window.location.href = 'mailto:consulting@awani.ai?subject=Consulting%20Inquiry'
+    }
+  }
+
   // Lock body scroll when drawer is open
   useEffect(() => {
     if (drawerOpen) {
@@ -110,7 +118,7 @@ function App() {
             <a href="#pricing" onClick={() => scrollToSection('pricing')}>Pricing</a>
             <a href="#contact" onClick={() => scrollToSection('contact')}>Contact</a>
           </div>
-          <a href="mailto:consulting@awani.ai?subject=Consulting%20Inquiry" className="cta-button">Book Call</a>
+          <button className="cta-button" onClick={openChat}>Book Call</button>
         </div>
       </nav>
 
@@ -136,9 +144,9 @@ function App() {
           <a onClick={() => handleDrawerNav('contact')}><i className="fa-solid fa-envelope"></i> Contact</a>
         </div>
         <div className="drawer-footer">
-          <a href="mailto:consulting@awani.ai?subject=Consulting%20Inquiry" className="drawer-cta">
+          <button className="drawer-cta" onClick={() => { setDrawerOpen(false); openChat() }}>
             <i className="fa-solid fa-phone"></i> Book a Call
-          </a>
+          </button>
         </div>
       </div>
 
@@ -1036,7 +1044,7 @@ function App() {
                 <span>Available across all time zones</span>
               </div>
             </div>
-            <a href="mailto:consulting@awani.ai?subject=Discovery%20Call%20Request" className="primary-button glow-button">Schedule Discovery Call</a>
+            <button className="primary-button glow-button" onClick={openChat}>Schedule Discovery Call</button>
           </div>
         </div>
       </section>

@@ -318,8 +318,12 @@ body {
   gap: 0.5rem;
   padding: 0.85rem 1.5rem;
   background: var(--gradient-primary);
+  border: none;
   border-radius: 8px;
   color: var(--white);
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
@@ -1267,15 +1271,6 @@ body {
   color: var(--green-bright);
 }
 
-/* Anchor buttons should look like buttons */
-a.cta-button,
-a.primary-button {
-  text-decoration: none;
-  color: var(--white);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /* Responsive Design - Mobile First Approach */
 
